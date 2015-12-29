@@ -6,6 +6,7 @@ class http_page(object):
 	"""docstring for ClassName"""
 	def __init__(self,base_url):
 		super(http_page, self).__init__()
+		#ww
 		self.base_url = base_url
 
 	def get_header(self):
@@ -24,6 +25,6 @@ class http_page(object):
 		match = pattern.findall(html)
 		#pattern = re.compile(r'l') 
 		#match = pattern.search('hello world!') 
-		print match[1]
+		print match[1] 
 
 		
